@@ -1,10 +1,33 @@
-scalar Text
-
-type Post {
+type Deposit {
   id: String!
-  author: String!
-  content: Text!
-  tag: String
+  sender: String!
+  value: String!
+  tx_hash: String!
+  created_at: Int!
+  created_at_block: Int!
+}
+
+type Withdraw {
+  id: String!
+  sender: String!
+  value: String!
+  tx_hash: String!
+  created_at: Int!
+  created_at_block: Int!
+}
+
+type ClaimRewards {
+  id: String!
+  sender: String!
+  value: String!
+  tx_hash: String!
+  created_at: Int!
+  created_at_block: Int!
+}
+
+type Rebalanced {
+  id: String!
+  value: String!
   tx_hash: String!
   created_at: Int!
   created_at_block: Int!

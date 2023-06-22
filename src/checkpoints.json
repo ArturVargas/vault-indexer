@@ -1,6 +1,8 @@
 [
   {
-    "contract": "0x04d10712e72b971262f5df09506bbdbdd7f729724030fa909e8c8e7ac2fd0012",
-    "blocks": [185778, 185780, 220016, 220138, 221984]
+    "contract": "0x04f65c89baa8a52b8da26c2b8ca0a9b2c9c13a7c70b3cb6d8e7822f96113fbbc",
+    "blocks": [
+      822050
+    ]
   }
 ]
